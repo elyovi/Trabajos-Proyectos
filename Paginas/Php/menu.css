@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    background-color: rgb(43, 52, 153);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 400;
+    max-width: 1200px;
+    width:90%;
+    color: aliceblue;
+    margin: auto;
+    border-radius: 5px;
+}
+.opciones{
+    max-width: 1200px;
+    width:90%;
+    margin:auto;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color:rgb(4, 42, 255);
+}
+.insert{
+    background-color: rgb(255, 108, 34);
+    text-decoration: none ;
+    }
+    .mostrar{
+    background-color: rgb(255, 146, 9);
+    }
+    .eliminar{
+    background-color:rgb(255, 208, 153) ;
+    }
+    .modificar{
+    background-color: mediumturquoise;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family:cursive;
+       
+    }
+    h1{
+        
+        flex-wrap: wrap;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .opciones{
+        display: flex;
+     flex-direction: row;
+    justify-content: center;
+        text-align: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    }
+    .insert,.eliminar,.mostrar,.modificar{
+        width: 25%;
+        border-width: 2px;
+        border-color: black;
+        border-radius: 5px;
+        border-style: solid;
+    }
+    table{
+        margin: auto;
+        margin-top: 20px;
+        border: 1px;
+        border-style: solid;
+        border-color: black;
+        background-color: #fff;
+        font-family: cursive;
+        color: black;
+    }
+    tbody{
+        color: black;
+    }
+    td{
+        border: black;
+        border-style: solid;
+        border-width: 1px;
+    }
+    .color{
+        color: blueviolet;
+    }
